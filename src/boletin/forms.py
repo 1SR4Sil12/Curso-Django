@@ -3,4 +3,4 @@ from .models import Registrado
 
 class RegForm(forms.Form):
 	nombre = forms.CharField(required=False)
-	edad = forms.IntegerField()
+	email = forms.EmailField()

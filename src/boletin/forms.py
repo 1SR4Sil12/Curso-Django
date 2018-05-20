@@ -18,7 +18,7 @@ class RegModelForm(forms.ModelForm):
 	def clean_nombre(self):
 		nombre = self.cleaned_data.get("nombre")	
 		#Validaciones
-		return nombres
+		return nombre
 
 class RegForm(forms.Form):
 	nombre = forms.CharField(max_length=100)

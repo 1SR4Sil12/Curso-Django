@@ -5,7 +5,7 @@ from .forms import RegModelForm, ContactForm
 from .models import Registrado
 
 def inicio(request):
-	titulo = "HOLA"
+	titulo = "Bienvenidos"
 	if request.user.is_authenticated():
 		titulo = "Bienvenido %s" %(request.user)
 	form = RegModelForm(request.POST or None)

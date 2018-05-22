@@ -42,10 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
 #apss tercero    
     'crispy_forms',
+    'registration',
 #mis apps    
     'boletin',
 ]
@@ -61,7 +63,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'pd110.urls'
+
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
 
 TEMPLATES = [
     {
@@ -139,3 +145,4 @@ STATICFILES_DIRS = [
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "static_root")
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "media_root")
+

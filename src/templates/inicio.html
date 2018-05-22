@@ -5,7 +5,7 @@
 <div class='row'>
 <div class='col-sm-6'
 		<h1>Probar django 1.10</h1>
-        <p class="lead">Un proyecto para Lenguaje de Marcas</p>
+        <p class="lead text-align-center ">Un proyecto para Lenguaje de Marcas</p>
         <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">Únete &raquo;</a>
 </div>
 <div class='col-sm-6' style='background-color:black;height:300px;'></div>
@@ -22,20 +22,20 @@
 {% block content %}
 <div class="row">
 	<div class="col-sm-3 col-xs-12 float-right">
-		<p class='lead'>{{ titulo }}</p>
+		<p class='lead text-align-center '>{{ titulo }}</p>
 		<form method="POST" action="">{% csrf_token %}
 		{{ el_form|crispy }}
 		<input class='btn btn-primary' type='submit' value='Inscribirse' />
 		</form>
 	</div>
 <div class='col-sm-3'>
-	<p class='lead'>Creado con Django &amp; Bootstrap</p>
+	<p class='lead text-align-center '>Creado con Django &amp; Bootstrap</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Y con poco tiempo, claro.</p>
+	<p class='lead text-align-center '>Y con poco tiempo, claro.</p>
 </div>
 <div class='col-sm-3'>
-	<p class='lead'>Código abierto, siempre.</p>
+	<p class='lead text-align-center '>Código abierto, siempre.</p>
 </div>
 </div>
 

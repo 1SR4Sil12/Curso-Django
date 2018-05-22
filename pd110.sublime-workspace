@@ -8,58 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "src/pd110/settings.py",
+			"file": "src/static_pro/static/css/navbar-top.css",
 			"settings":
 			{
-				"buffer_size": 3138,
+				"buffer_size": 68,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static_pro/static/css/custom.css",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/templates/inicio.html",
 			"settings":
 			{
-				"buffer_size": 203,
+				"buffer_size": 1190,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/boletin/models.py",
+			"file": "src/templates/head_css.html",
 			"settings":
 			{
-				"buffer_size": 379,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/admin.py",
-			"settings":
-			{
-				"buffer_size": 439,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/pd110/urls.py",
-			"settings":
-			{
-				"buffer_size": 833,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/views.py",
-			"settings":
-			{
-				"buffer_size": 438,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/boletin/forms.py",
-			"settings":
-			{
-				"buffer_size": 524,
+				"buffer_size": 292,
 				"line_ending": "Windows"
 			}
 		}
@@ -88,7 +64,20 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Ixty/Desktop/pd110/src/templates/inicio.html",
+		"/C/Users/Ixty/Desktop/pd110/src/boletin/views.py",
+		"/C/Users/Ixty/Desktop/pd110/src/pd110/settings.py",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/navbar.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/head_css.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/javascript.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/base.html",
+		"/C/Users/Ixty/Desktop/pd110/src/pd110/urls.py",
+		"/C/Users/Ixty/Desktop/pd110/Lib/site-packages/django/conf/urls/static.py",
+		"/C/Users/Ixty/Desktop/pd110/src/boletin/models.py",
+		"/C/Users/Ixty/Desktop/pd110/src/boletin/admin.py",
 		"/C/Users/Ixty/Desktop/pd110/tcl/CRUD.md",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/forms.html",
+		"/C/Users/Ixty/Desktop/pd110/src/boletin/forms.py",
 		"/C/Users/Ixty/Desktop/pruebasenv/djangolm/boletin/admin.py",
 		"/C/Users/Ixty/Desktop/pruebasenv/djangolm/boletin/views.py",
 		"/C/Users/Ixty/Desktop/pruebasenv/djangolm/boletin/forms.py",
@@ -132,56 +121,54 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/pd110/settings.py",
+					"file": "src/static_pro/static/css/navbar-top.css",
 					"settings":
 					{
-						"buffer_size": 3138,
+						"buffer_size": 68,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1696,
-								1698
+								68,
+								68
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/templates/inicio.html",
+					"file": "src/static_pro/static/css/custom.css",
 					"settings":
 					{
-						"buffer_size": 203,
+						"buffer_size": 43,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								203,
-								203
+								19,
+								1
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -191,131 +178,53 @@
 				},
 				{
 					"buffer": 2,
-					"file": "src/boletin/models.py",
+					"file": "src/templates/inicio.html",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 1190,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								379,
-								379
+								1124,
+								1124
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 495.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/boletin/admin.py",
+					"file": "src/templates/head_css.html",
 					"settings":
 					{
-						"buffer_size": 439,
+						"buffer_size": 292,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
+								265,
+								265
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/pd110/urls.py",
-					"settings":
-					{
-						"buffer_size": 833,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								730,
-								730
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/boletin/views.py",
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								273,
-								273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/boletin/forms.py",
-					"settings":
-					{
-						"buffer_size": 524,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								425,
-								425
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 151.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -379,6 +288,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 155.0,
 	"status_bar_visible": true
 }

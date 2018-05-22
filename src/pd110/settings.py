@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'y(u^11i(j6bgsys%d$u&pf24@we4evl4yv)z(=7flyw+&+!!j0'
+SECRET_KEY = '7geaa^fr$9xlz8*)!k+h=k*#zx%a=tti816t+300nkr2ws^nr6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -28,16 +28,19 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'tu_email@gmail.com'
-EMAIL_HOST_PASSWORD = 'tupassword'
+EMAIL_HOST_USER = 'evaristoenpruebas@gmail.com'
+EMAIL_HOST_PASSWORD = 'djangohola'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-
+#...
+#Para usar gmail hay que desbloquear captcha
+#https://accounts.google.com/displayunlockcaptcha
+#...
 # Application definition
 
 INSTALLED_APPS = [
-#appsdjango
+    #apps django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -45,10 +48,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-#apss tercero    
+    #apps terceros
     'crispy_forms',
     'registration',
-#mis apps    
+    #mis apps
     'boletin',
 ]
 
@@ -63,10 +66,6 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'pd110.urls'
-
-ACCOUNT_ACTIVATION_DAYS = 7
-REGISTRATION_AUTO_LOGIN = True
-CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 
 TEMPLATES = [
@@ -121,7 +120,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'es'
+LANGUAGE_CODE = 'es-es'
 
 TIME_ZONE = 'UTC'
 
@@ -136,7 +135,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_URL = '/media/'
+MEDIA_URL = '/media/'
 #/static/imagenes/img1.jpg
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static_pro", "static"),
@@ -146,3 +145,10 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "static_root")
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_env", "media_root")
 
+
+
+
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
+SITE_ID = 1
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

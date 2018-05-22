@@ -19,19 +19,18 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 from boletin import views
-
 from .views import about
+#from boletin.views inicio
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+
+	url(r'^$', views.inicio, name='inicio'),
     url(r'^contact/$', views.contact, name='contact'),
-    url(r'^$', views.inicio, name='inicio'),
-    url(r'^about/$', about, name='about'),
+    url(r'^about$', about, name='about'),
+    url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.default.urls')),
 
+
 ]
-
 if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
- #   urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
- 
+	urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+	urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

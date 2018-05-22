@@ -7,38 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/static_pro/static/css/navbar-top.css",
-			"settings":
-			{
-				"buffer_size": 68,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/static_pro/static/css/custom.css",
-			"settings":
-			{
-				"buffer_size": 43,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/inicio.html",
-			"settings":
-			{
-				"buffer_size": 1190,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/head_css.html",
-			"settings":
-			{
-				"buffer_size": 292,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,19 +32,23 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Ixty/Desktop/pd110/src/templates/inicio.html",
-		"/C/Users/Ixty/Desktop/pd110/src/boletin/views.py",
-		"/C/Users/Ixty/Desktop/pd110/src/pd110/settings.py",
-		"/C/Users/Ixty/Desktop/pd110/src/templates/navbar.html",
-		"/C/Users/Ixty/Desktop/pd110/src/templates/head_css.html",
-		"/C/Users/Ixty/Desktop/pd110/src/templates/javascript.html",
-		"/C/Users/Ixty/Desktop/pd110/src/templates/base.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/registration/registration_form.html",
 		"/C/Users/Ixty/Desktop/pd110/src/pd110/urls.py",
+		"/C/Users/Ixty/Desktop/pd110/src/pd110/settings.py",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/inicio.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/base.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/forms.html",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/navbar.html",
+		"/C/Users/Ixty/Desktop/pd110/src/boletin/views.py",
+		"/C/Users/Ixty/Desktop/pd110/src/pd110/views.py",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/head_css.html",
+		"/C/Users/Ixty/Desktop/pd110/src/static_pro/static/css/custom.css",
+		"/C/Users/Ixty/Desktop/pd110/src/static_pro/static/css/navbar-top.css",
+		"/C/Users/Ixty/Desktop/pd110/src/templates/javascript.html",
 		"/C/Users/Ixty/Desktop/pd110/Lib/site-packages/django/conf/urls/static.py",
 		"/C/Users/Ixty/Desktop/pd110/src/boletin/models.py",
 		"/C/Users/Ixty/Desktop/pd110/src/boletin/admin.py",
 		"/C/Users/Ixty/Desktop/pd110/tcl/CRUD.md",
-		"/C/Users/Ixty/Desktop/pd110/src/templates/forms.html",
 		"/C/Users/Ixty/Desktop/pd110/src/boletin/forms.py",
 		"/C/Users/Ixty/Desktop/pruebasenv/djangolm/boletin/admin.py",
 		"/C/Users/Ixty/Desktop/pruebasenv/djangolm/boletin/views.py",
@@ -121,114 +93,8 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/static_pro/static/css/navbar-top.css",
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/static_pro/static/css/custom.css",
-					"settings":
-					{
-						"buffer_size": 43,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								19,
-								1
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/inicio.html",
-					"settings":
-					{
-						"buffer_size": 1190,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1124,
-								1124
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 495.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/templates/head_css.html",
-					"settings":
-					{
-						"buffer_size": 292,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								265,
-								265
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

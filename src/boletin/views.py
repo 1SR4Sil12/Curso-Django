@@ -38,6 +38,11 @@ def inicio(request):
 	#	obj = Registrado.objects.create(email=abc, nombre=abc2)
 	
 	if request.user.is_authenticated() and request.user.is_staff:
+		i = 1
+		for instance in Registrado.objects.all():
+			print (i)
+			print (instance)
+			i += 1
 		context ={
 			"queryset": ['abc', '123'],
 		}

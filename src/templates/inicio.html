@@ -15,6 +15,9 @@
 
 
 {% block jumbotron %}
+{% if request.user.is_staff %}
+{{ queryset}}
+{% else %}
 
 <div class="jumbotron">
 <div class="container">
@@ -28,6 +31,7 @@
 </div>
 </div>
 </div>
+{% endif %}
 {% endblock %}
 
 
@@ -38,6 +42,7 @@
 <br/>
 
 {% block content %}
+{% if not request.user.is_staff %}
 <div class="row">
 	<div class="col-sm-3 col-xs-12 pull-right">
 		{% if not user.is_authenticated %}
@@ -68,4 +73,5 @@
 </div>
 
 <hr/>
+{% endif %}
 {% endblock %}

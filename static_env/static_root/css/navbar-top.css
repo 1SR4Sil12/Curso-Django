@@ -1,5 +1,30 @@
 /* Show it's not fixed to the top */
 body {
   min-height: 75rem;
+ # background-color: #B40404 !important;
 }
 
+
+
+.bg-dark{
+	background-color: #0174DF !important;
+	border-color: #0174DF !important;
+}
+.mb-4,.my-4{
+	margin-bottom: 0.1rem !important;
+	border-color: #0174DF !important;
+	margin: red !important;
+}
+.navbar-brand{
+	color: black !important;
+}
+.navbar-brand:hover{
+	color: #0101DF !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #2E2E2E !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #B40404 !important;
+
+}

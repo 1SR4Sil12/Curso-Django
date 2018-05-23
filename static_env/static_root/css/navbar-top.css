@@ -1,6 +1,6 @@
 /* Show it's not fixed to the top */
 body {
-  min-height: 75rem;
+  min-height: 750px;
  # background-color: #B40404 !important;
 }
 
@@ -26,5 +26,9 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link:hover{
 	color: #B40404 !important;
+
+}
+.form-group{
+	display: inline-flex;
 
 }

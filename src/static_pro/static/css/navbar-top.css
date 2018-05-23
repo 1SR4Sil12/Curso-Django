@@ -28,3 +28,7 @@ body {
 	color: #B40404 !important;
 
 }
+.form-group{
+	display: inline-flex;
+
+}

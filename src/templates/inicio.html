@@ -16,7 +16,9 @@
 
 {% block jumbotron %}
 {% if request.user.is_staff %}
-{{ queryset}}
+{% for instance in queryset %}
+{{ instance }}, {{ instance.nombre }} <br/>
+{% endfor %}
 {% else %}
 
 <div class="jumbotron">
